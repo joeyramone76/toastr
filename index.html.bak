@@ -144,7 +144,6 @@
 						toastIndex = toastCount++;
 		            toastr.options = {
 					    debug: ($('#debugInfo').attr('checked') === 'checked'),
-						closeButton: ($('#addCloseButton').attr('checked') === 'checked'),
 					    positionClass: $('#positionGroup input:radio:checked').val() || 'toast-top-right',
                         onclick: null
 					};
